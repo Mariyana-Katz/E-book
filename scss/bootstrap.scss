@@ -49,5 +49,11 @@ $spacers: (
   8: $spacer * 12,
 ) !default;
 
+// for changing the line height, the base is 1.5 our a little bigger
+$line-height-base: 1.7;
+
+//adding a little bit more spacing under the heading
+$headings-margin-bottom: $spacer *1;
+
 
 @import '../node_modules/bootstrap/scss/bootstrap';
