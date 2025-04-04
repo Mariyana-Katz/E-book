@@ -4,6 +4,16 @@
     color: var(--bs-dark);
 }
 
+.navbar-sticky{
+   opacity: 0.9; /*slightly transparent*/
+   box-shadow: 0 0 10px rgba(0,0,0,0.5); /*add a soft shadow*/
+
+}
+
+//transition for the navbar fade in 5 sec
+.navbar{
+    transition: all 0.5s ease-in-out;
+}
 
 //background image for the header
 .header {
@@ -26,4 +36,6 @@
 .icons {
     background-color: #f3f6f9; /* Make sure it matches the SVG fill */
   }
+
+
   
